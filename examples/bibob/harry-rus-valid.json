@@ -1,0 +1,56 @@
+{
+  "identifiers": {
+    "isbn": "9785353029076",
+    "local": "27079075",
+    "owner": "870970"
+  },
+  "titles": {
+    "short": "Garri Potter i dary smerti",
+    "full": "Garri Potter i dary smerti",
+    "series": "The series title"
+  },
+  "abstract": "Harry Potter er sammen med sine gode venner Ron og Hermione taget ud på en farlig færd De skal finde den onde troldmand Voldemorts Horcruxer og ødelægge dem. Deres søgen bringer dem mange. steder hen og ofte er de i livsfare. Men Voldemort og hans kumpaner er også på jagt efter de forsvundne Horcruxer",
+  "audienceAge": "Fra 12 år",
+  "publisher": "Rosmen",
+  "date": "2007",
+  "type": "Bog",
+  "extent": "637 sider",
+  "language": {
+    "general": "Russisk",
+    "ISO639-2": "rus"
+  },
+  "creators": [
+    "Joanne K. Rowling"
+  ],
+  "creatorsSort": [
+    "Rowling, Joanne K."
+  ],
+  "contributors": [
+    {
+      "type": "ill",
+      "contributors": [
+        "Mr. Illustrator"
+      ]
+    }
+  ],
+  "description": "Dansk titel: Harry Potter og dødsregalierne",
+  "seriesDescription": "Samhørende: Garri Potter i filosofskij kamen ; Garri Potter i Tajnaja Komnata ; Garri Potter i uznik Azkabana ; Garri Potter i Kubok ognja ; Garri Potter i Orden Feniksa ; Garri Potter i prints-polukrovka ; Garri Potter i dary smerti",
+  "sources": {
+    "administrative (ac)": "Bibliotekskatalog",
+    "material (dc)": "Harry Potter and the deadly hallows"
+  },
+  "subjects": {
+    "genre": [
+      "eventyrlige fortællinger"
+    ],
+    "DBCS": [
+      "eventyrlige fortællinger",
+      "magi",
+      "troldmænd"
+    ],
+    "DK5": {
+      "classification": "88.61",
+      "text": "Russisk og hviderussisk skønlitteratur"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dkabm:record
+        xmlns:dkabm="http://biblstandard.dk/abm/namespace/dkabm/"
+        xmlns:ac="http://biblstandard.dk/ac/namespace/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dkdcplus="http://biblstandard.dk/abm/namespace/dkdcplus/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xsi:schemaLocation="http://biblstandard.dk/abm/namespace/dkabm/ http://biblstandard.dk/abm/schemas/dkabm_2011-09-01.xsd"
+>
+    <ac:identifier>27079075|870970</ac:identifier>
+    <dc:identifier xsi:type="dkdcplus:ISBN">9785353029076</dc:identifier>
+    <ac:source>Bibliotekskatalog</ac:source>
+    <dc:source>Harry Potter and the deadly hallows</dc:source>
+    <dc:title>Garri Potter i dary smerti</dc:title>
+    <dc:title xsi:type="dkdcplus:full">Garri Potter i dary smerti</dc:title>
+    <dc:creator xsi:type="dkdcplus:aut">Joanne K. Rowling</dc:creator>
+    <dc:creator xsi:type="dkdcplus:aut">Joanne K. Rowling</dc:creator>
+    <!--<dc:creator xsi:type="oss:sort">Rowling, Joanne K.</dc:creator>-->
+    <dc:subject xsi:type="dkdcplus:DK5">88.61</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DK5-Text">Russisk og hviderussisk skønlitteratur</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">eventyrlige fortællinger</dc:subject>
+    <dc:subject xsi:type="dkdcplus:genre">eventyrlige fortællinger</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">magi</dc:subject>
+    <dc:subject xsi:type="dkdcplus:DBCS">troldmænd</dc:subject>
+    <dcterms:abstract>
+        Harry Potter er sammen med sine gode venner Ron og Hermione taget ud på en farlig færd. De skal finde den onde troldmand Voldemorts Horcruxer og ødelægge dem. Deres søgen bringer dem mange
+        steder hen og ofte er de i livsfare. Men Voldemort og hans kumpaner er også på jagt efter de forsvundne Horcruxer
+    </dcterms:abstract>
+    <dc:description>Dansk titel: Harry Potter og dødsregalierne</dc:description>
+    <dc:description xsi:type="dkdcplus:series">
+        Samhørende: Garri Potter i filosofskij kamen ; Garri Potter i Tajnaja Komnata ; Garri Potter i uznik Azkabana ; Garri Potter i Kubok ognja ; Garri Potter i Orden Feniksa ; Garri Potter i
+        prints-polukrovka ; Garri Potter i dary smerti
+    </dc:description>
+    <dcterms:audience xsi:type="dkdcplus:age">Fra 12 år</dcterms:audience>
+    <dcterms:audience>børnematerialer</dcterms:audience>
+    <dc:publisher>Rosmen</dc:publisher>
+    <dc:date>2007</dc:date>
+    <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+    <dcterms:extent>637 sider</dcterms:extent>
+    <dc:language xsi:type="dcterms:ISO639-2">rus</dc:language>
+    <dc:language>Russisk</dc:language>
+</dkabm:record>

@@ -1,0 +1,13 @@
+{
+  "name": "bibjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validate.js",
+  "scripts": {
+    "validate": "node validate.js "
+  },
+  "author": "",
+  "dependencies": {
+    "ajv": "^6.9.2"
+  }
+}
