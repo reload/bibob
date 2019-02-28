@@ -1,0 +1,250 @@
+{
+  "TODO": [
+    "cardinallity"
+  ],
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://biblstandard.dk/abm/bibob/bibob.schema.json",
+  "title": "Bibob",
+  "description": "A Bibob record",
+  "definitions": {
+    "titles": {
+      "type": "object",
+      "description": "Titles for the material, full will always be available.",
+      "properties": {
+        "full": {
+          "type": "string",
+          "description": "The title of the material (dc:title narrowed to dkdcplus:full)"
+        },
+        "short": {
+          "type": "string",
+          "description": "Short version of the materials title (dc:title)"
+        },
+        "series": {
+          "type": "string",
+          "description": "List of titles of the series the material is a part of."
+        }
+      },
+      "required": [
+        "short",
+        "full"
+      ],
+      "additionalProperties": false
+    },
+    "identifiers": {
+      "type": "object",
+      "description": "Identification of the material. A globally unique identifier can be constructed by combining owner and local id.",
+      "properties": {
+        "owner": {
+          "type": "string",
+          "description": "The owner of the object, eg. the agency. (Owner part of ac:identifier)"
+        },
+        "local": {
+          "type": "string",
+          "description": "Identifier for the material in the source-system. (Local part of ac:identifier)"
+        },
+        "isbn": {
+          "type": "string",
+          "description": "The ISBN of the material."
+        }
+      },
+      "required": [
+        "local",
+        "owner"
+      ],
+      "additionalProperties": false
+    },
+    "language": {
+      "type": "object",
+      "description": "Specification of the language of the material",
+      "properties": {
+        "material": {
+          "type": "string",
+          "description": "Main language of the material (dc:language)"
+        },
+        "spoken": {
+          "type": "string",
+          "description": "Material spoken language (dc:language scheme dkdcplus:subtitles)"
+        },
+        "subtitles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of languages the material has subtitles in. (dc:language scheme dkdcplus:subtitles)"
+        },
+        "ISO639-2": {
+          "type": "string",
+          "description": "ISO639-2 code for the main language of the material. (dc:language scheme dkdcplus::ISO-639-2)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "object",
+      "description": "Material sources",
+      "properties": {
+        "original": {
+          "type": "string",
+          "description": "Title of the material from which this material stems (dc:source)"
+        },
+        "material": {
+          "type": "string",
+          "description": "The original source of the material (ac:source)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "contributorType": {
+      "type": "object",
+      "description": "",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "The type of contributor (funktionskode http://www.kat-format.dk/danMARC2/Danmarc2.bilagJ.htm)"
+        },
+        "contributors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of named contributors"
+        }
+      },
+      "additionalProperties": false
+    },
+    "DK5": {
+      "type": "object",
+      "description": "DK5 material classification",
+      "properties": {
+        "classification": {
+          "type": "string",
+          "description": "The classification"
+        },
+        "text": {
+          "type": "string",
+          "description": "The textual representation of the classification"
+        }
+      },
+      "additionalProperties": false,
+      "required": ["classification"]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "titles": {
+      "$ref": "#/definitions/titles"
+    },
+    "identifiers": {
+      "$ref": "#/definitions/identifiers"
+    },
+    "abstract": {
+      "type": "string",
+      "description": ""
+    },
+    "audienceAge": {
+      "type": "string",
+      "description": ""
+    },
+    "publisher": {
+      "type": "string",
+      "description": ""
+    },
+    "date": {
+      "type": "string",
+      "description": ""
+    },
+    "type": {
+      "$ref": "bibob-material-type.schema.json#/definitions/type"
+    },
+    "extent": {
+      "type": "string",
+      "description": ""
+    },
+    "language": {
+      "$ref": "#/definitions/language"
+    },
+    "creators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/contributorType"
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": ""
+    },
+    "seriesDescription": {
+      "type": "string",
+      "description": ""
+    },
+    "sources": {
+      "$ref": "#/definitions/sources"
+    },
+    "subjects": {
+      "type": "object",
+      "properties": {
+        "DBCF": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "DBCM": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "DBCN": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "DBCO": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "DBCS": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "DK5": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/DK5"
+          }
+        },
+        "genre": {
+          "type": "array",
+          "items": {
+            "$ref": "bibob-genre.schema.json#/definitions/genre"
+          }
+        },
+        "LCSH": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "identifiers",
+    "sources"
+  ],
+  "additionalProperties": false
+}
+

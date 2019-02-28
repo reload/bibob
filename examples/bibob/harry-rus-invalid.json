@@ -14,14 +14,11 @@
   "type": "Bog",
   "extent": "637 sider",
   "language": {
-    "general": "Russisk",
+    "material": "Russisk",
     "ISO639-2": "rus"
   },
   "creators": [
     "Joanne K. Rowling"
-  ],
-  "creatorsSort": [
-    "Rowling, Joanne K."
   ],
   "contributors": [
     {
@@ -34,8 +31,8 @@
   "description": "Dansk titel: Harry Potter og dødsregalierne",
   "seriesDescription": "Samhørende: Garri Potter i filosofskij kamen ; Garri Potter i Tajnaja Komnata ; Garri Potter i uznik Azkabana ; Garri Potter i Kubok ognja ; Garri Potter i Orden Feniksa ; Garri Potter i prints-polukrovka ; Garri Potter i dary smerti",
   "sources": {
-    "administrative (ac)": "Bibliotekskatalog",
-    "material (dc)": "Harry Potter and the deadly hallows"
+    "original": "Bibliotekskatalog",
+    "material": "Harry Potter and the deadly hallows"
   },
   "subjects": {
     "genre": [
@@ -46,9 +43,11 @@
       "magi",
       "troldmænd"
     ],
-    "DK5": {
-      "classification": "88.61",
-      "text": "Russisk og hviderussisk skønlitteratur"
-    }
+    "DK5": [
+      {
+        "classification": "88.61",
+        "text": "Russisk og hviderussisk skønlitteratur"
+      }
+    ]
   }
 }
