@@ -99,8 +99,7 @@
       "description": "",
       "properties": {
         "type": {
-          "type": "string",
-          "description": "The type of contributor (funktionskode http://www.kat-format.dk/danMARC2/Danmarc2.bilagJ.htm)"
+          "$ref": "bibob-function-code.schema.json#/definitions/functionCode"
         },
         "contributors": {
           "type": "array",
