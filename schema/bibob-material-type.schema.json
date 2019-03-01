@@ -3,11 +3,10 @@
   "$id": "http://biblstandard.dk/abm/bibob/bibob-material-type.schema.json",
   "title": "Bibob types",
   "description": "Bibob material types",
-
   "definitions": {
     "type" : {
       "type": "string",
-      "description": "Material types, see http://www.danbib.dk/docs/abm/types.xml.",
+      "description": "Material types, see http://www.danbib.dk/docs/abm/types.xml. (dc:type with scheme dkdcplus:BibDK-Type)",
       "enum": [
         "Akvarel",
         "Anmeldelse",

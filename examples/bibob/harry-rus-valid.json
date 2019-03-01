@@ -12,7 +12,7 @@
   "abstract": "Harry Potter er sammen med sine gode venner Ron og Hermione taget ud på en farlig færd De skal finde den onde troldmand Voldemorts Horcruxer og ødelægge dem. Deres søgen bringer dem mange. steder hen og ofte er de i livsfare. Men Voldemort og hans kumpaner er også på jagt efter de forsvundne Horcruxer",
   "audienceAge": "Fra 12 år",
   "publisher": "Rosmen",
-  "date": "2007",
+  "year": "2007",
   "type": "Bog",
   "extent": "637 sider",
   "language": {
@@ -32,10 +32,8 @@
   ],
   "description": "Dansk titel: Harry Potter og dødsregalierne",
   "seriesDescription": "Samhørende: Garri Potter i filosofskij kamen ; Garri Potter i Tajnaja Komnata ; Garri Potter i uznik Azkabana ; Garri Potter i Kubok ognja ; Garri Potter i Orden Feniksa ; Garri Potter i prints-polukrovka ; Garri Potter i dary smerti",
-  "sources": {
-    "original": "Bibliotekskatalog",
-    "material": "Harry Potter and the deadly hallows"
-  },
+  "administrativeSource": "Bibliotekskatalog",
+  "sourceMaterials": ["Harry Potter and the deadly hallows"],
   "subjects": {
     "genre": [
       "eventyrlige fortællinger"
